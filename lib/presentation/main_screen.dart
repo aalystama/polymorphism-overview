@@ -43,15 +43,15 @@ class _MainScreenState extends State<MainScreen> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.looks_one),
-            label: 'Local data',
+            label: titles.elementAt(0),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.looks_two),
-            label: 'Remote data',
+            label: titles.elementAt(1),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.looks_3),
-            label: 'Test data',
+            label: titles.elementAt(2),
           ),
         ],
       ),
