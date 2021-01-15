@@ -24,12 +24,6 @@ class _MainScreenState extends State<MainScreen> {
     'Test data',
   ];
 
-  void _onItemTapped(int index) {
-    setState(() {
-      selectedIndex = index;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -56,5 +50,11 @@ class _MainScreenState extends State<MainScreen> {
         ],
       ),
     );
+  }
+
+  void _onItemTapped(int index) {
+    setState(() {
+      selectedIndex = index;
+    });
   }
 }
